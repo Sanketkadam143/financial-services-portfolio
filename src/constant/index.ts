@@ -67,14 +67,14 @@ export const HeroSectionContent = {
     services: [
       {
         ServiceHeading: 'Wealth Management',
-        ServiceSubHeading: 'Personalized strategies for managing your wealth and growing your investments.',
+        ServiceSubHeading: 'Personalized strategies for managing your wealth',
         ServiceButton: 'Learn More',
         ServiceImage: 'https://www.axisbank.com/images/default-source/progress-with-us_new/value-investing-vs-growth-investing.jpg',
         ServiceImageAlt: 'Wealth Management Image'
       },
       {
         ServiceHeading: 'Investment Banking',
-        ServiceSubHeading: 'Comprehensive advisory and capital raising services for corporations and institutions.',
+        ServiceSubHeading: 'Capital raising services for corporations and institutions.',
         ServiceButton: 'Discover More',
         ServiceImage: 'https://www.axisbank.com/images/default-source/progress-with-us_new/value-investing-vs-growth-investing.jpg',
         ServiceImageAlt: 'Investment Banking Image'
