@@ -8,7 +8,7 @@
     <nav class="relative z-10 flex justify-between items-center p-6">
       <div class="flex items-center space-x-4">
         <!-- Logo -->
-        <img :src="Icon1" alt="logo" />
+        <!-- <img :src="icon1" alt="logo" /> -->
         <!-- <img :src="NavbarContent.logo" alt="NavbarContent.logo"/> -->
         <!-- Nav Links (Left) -->
         <div class="hidden md:flex space-x-4">
@@ -37,9 +37,9 @@
   </div>
 </template>
 
-<script>
-import Icon1 from '../assets/icon1.png';
-</script>
+<!-- <script>
+import icon1 from '../assets/icon1.png';
+</script> -->
 
 <style scoped>
 .h-screen-80 {
