@@ -36,5 +36,4 @@
   </template>
   
   <script setup lang="ts">
-  import { VideoSectionContent } from '../constant';
   </script>

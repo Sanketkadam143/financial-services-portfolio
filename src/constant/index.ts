@@ -1,5 +1,4 @@
 import Icon1 from '../assets/icon1.png';
-import AboutUs from '../components/AboutUs.vue';
 
 export const NavbarContent = {
   logo : Icon1,
