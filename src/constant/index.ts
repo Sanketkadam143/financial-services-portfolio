@@ -126,7 +126,7 @@ export const HeroSectionContent = {
         ServiceHeading: 'Portfolio Management Services',
         ServiceSubHeading: 'Tailored portfolio management to meet your financial goals.',
         ServiceButton: 'Get Started',
-        ServiceImage: 'https://media.licdn.com/dms/image/D4D12AQGLgrZRBV-fug/article-cover_image-shrink_600_2000/0/1685898496204?e=2147483647&v=beta&t=ZhjSJWiuNFB4mx3pL1YHMlJfd_J9XxLzws42N5QR-iw',
+        ServiceImage: 'https://happay.com/blog/wp-content/uploads/sites/12/2023/07/financial-assets-scaled.webp',
         ServiceImageAlt: 'Portfolio Management Services Image'
       }
     ]    
