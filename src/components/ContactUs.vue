@@ -1,6 +1,6 @@
 <template>
 
-	<div class="my-5 py-10">
+	<div class="md:my-5 md:py-10">
 				<div class="grid sm:grid-cols-2 items-center gap-16 p-8 mx-auto max-w-7xl bg-white ] rounded-md text-[#333] font-[sans-serif]">
 					<div>
 						<h1 class="text-3xl font-extrabold">Let's Talk</h1>
@@ -24,7 +24,7 @@
 								</li>
 							</ul>
 						</div>
-						<div class="mt-12">
+						<div class="mt-2">
 							<h2 class="text-lg font-extrabold">General Enquires</h2>
 							<ul class="mt-3">
 								<li class="flex items-center">
@@ -43,7 +43,7 @@
 								</li>
 							</ul>
 						</div>				
-						<div class="mt-12">
+						<div class="mt-2">
 							<h2 class="text-lg font-extrabold">Call us</h2>
 							<ul class="mt-3">
 								<li class="flex items-center">
@@ -62,7 +62,7 @@
 								</li>
 							</ul>
 						</div>
-						<div class="mt-12">
+						<div class="mt-2">
 							<h2 class="text-lg font-extrabold">Our Timings</h2>
 							<ul class="mt-3">
 								<li class="flex items-center">
@@ -128,7 +128,7 @@
 						<textarea placeholder='Message' rows="6"
 							class="w-full rounded-md px-4 border text-sm pt-2.5 outline-[#007bff]"></textarea>
 						<button type='button'
-							class="text-white bg-blue-500 hover:bg-blue-600 font-semibold rounded-md text-sm px-4 py-2.5 w-full">Send</button>
+							class="text-white bg-blue-700 hover:bg-blue-600 font-semibold rounded-md text-sm px-4 py-2.5 w-full">Send</button>
 					</form>
 				</div>
 			</div>

@@ -1,6 +1,6 @@
 <template>
     <div class="min-w-screen flex items-center justify-center py-5">
-      <div class="w-full bg-white border-t border-b border-gray-200 px-5 py-16 md:py-24 text-gray-800">
+      <div class="w-full bg-white  px-5 py-16 md:py-24 text-gray-800">
         <div class="w-full max-w-6xl mx-auto">
           <div class="text-center max-w-xl mx-auto">
             <h1 class="text-6xl md:text-5xl font-bold mb-5 text-gray-600">{{ TestimonialSectionContent.title }}</h1>
@@ -15,9 +15,9 @@
           </div>
           <div class="-mx-3 md:flex items-start">
             <div v-for="(testimonialGroup, index) in TestimonialSectionContent.testimonialGroups" :key="index" class="px-3 md:w-1/3">
-              <div v-for="testimonial in testimonialGroup" :key="testimonial.id" class="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
+              <div v-for="testimonial in testimonialGroup" :key="testimonial.id" class="w-full mx-auto rounded-lg bg-white border border-blue-200 p-5 text-gray-800 font-light mb-6">
                 <div class="w-full flex mb-4 items-center">
-                  <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
+                  <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-blue-200">
                     <img :src="testimonial.imgSrc" :alt="testimonial.name">
                   </div>
                   <div class="flex-grow pl-3">

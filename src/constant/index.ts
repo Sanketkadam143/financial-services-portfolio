@@ -1,4 +1,5 @@
 import Icon1 from '../assets/icon1.png';
+import AboutUs from '../components/AboutUs.vue';
 
 export const NavbarContent = {
   logo : Icon1,
@@ -47,17 +48,25 @@ export const HeroSectionContent = {
   
   export const AboutSectionContent = {
     AboutUsHeading: "About Us",
-    AboutUsDescription: `
-      <p>JM Financial is a comprehensive and diversified financial services group. The Group’s main businesses are:</p>
-  
-      <p><strong>1. Integrated Investment Banking:</strong> Serving institutional, corporate, government, and ultra-high-net-worth clients, this segment includes investment banking, institutional equities and research, private equity funds, fixed income, private wealth management, PMS, syndication, and finance.</p>
-  
-      <p><strong>2. Mortgage Lending:</strong> This includes both wholesale mortgage lending, primarily for real estate developers, and retail mortgage lending, focusing on affordable home loans and secured MSME loans.</p>
-  
-      <p><strong>3. Alternative and Distressed Credit:</strong> This segment comprises the asset reconstruction business and alternative credit funds.</p>
-  
-      <p><strong>4. Asset Management, Wealth Management, and Securities (Platform AWS):</strong> Offering an integrated investment platform for individual clients, this segment includes elite and retail wealth management, broking, and mutual fund businesses.</p>
-    `,
+    AboutUsSubHeading: "JM Financial is a comprehensive and diversified financial services group. The Group’s main businesses are",
+    AboutUsDescription: [
+      {
+        title: "Integrated Investment Banking",
+        content: "Serving institutional, corporate, government, and ultra-high-net-worth clients, this segment includes investment banking, institutional equities and research, private equity funds, fixed income, private wealth management, PMS, syndication, and finance."
+      },
+      {
+        title: "Mortgage Lending",
+        content: "This includes both wholesale mortgage lending, primarily for real estate developers, and retail mortgage lending, focusing on affordable home loans and secured MSME loans."
+      },
+      {
+        title: "Alternative and Distressed Credit",
+        content: "This segment comprises the asset reconstruction business and alternative credit funds."
+      },
+      {
+        title: "Asset Management, Wealth Management, and Securities (Platform AWS)",
+        content: "Offering an integrated investment platform for individual clients, this segment includes elite and retail wealth management, broking, and mutual fund businesses."
+      }
+    ],
     AboutUsImage: "https://cdn.shopify.com/s/files/1/0070/7032/files/arriving-at-a-solution.jpg?v=1687365354"
   };
   
@@ -69,7 +78,7 @@ export const HeroSectionContent = {
         ServiceHeading: 'Wealth Management',
         ServiceSubHeading: 'Personalized strategies for managing your wealth',
         ServiceButton: 'Learn More',
-        ServiceImage: 'https://www.axisbank.com/images/default-source/progress-with-us_new/value-investing-vs-growth-investing.jpg',
+        ServiceImage: 'https://happay.com/blog/wp-content/uploads/sites/12/2023/07/financial-assets-scaled.webp',
         ServiceImageAlt: 'Wealth Management Image'
       },
       {
@@ -111,14 +120,14 @@ export const HeroSectionContent = {
         ServiceHeading: 'Research and Advisory',
         ServiceSubHeading: 'In-depth market research and strategic advisory services.',
         ServiceButton: 'Consult Us',
-        ServiceImage: 'https://www.axisbank.com/images/default-source/progress-with-us_new/value-investing-vs-growth-investing.jpg',
+        ServiceImage: 'https://kreditbee.in/blog/content/images/2023/12/shutterstock_2195605515-min.jpg',
         ServiceImageAlt: 'Research and Advisory Image'
       },
       {
         ServiceHeading: 'Portfolio Management Services',
         ServiceSubHeading: 'Tailored portfolio management to meet your financial goals.',
         ServiceButton: 'Get Started',
-        ServiceImage: 'https://www.axisbank.com/images/default-source/progress-with-us_new/value-investing-vs-growth-investing.jpg',
+        ServiceImage: 'https://media.licdn.com/dms/image/D4D12AQGLgrZRBV-fug/article-cover_image-shrink_600_2000/0/1685898496204?e=2147483647&v=beta&t=ZhjSJWiuNFB4mx3pL1YHMlJfd_J9XxLzws42N5QR-iw',
         ServiceImageAlt: 'Portfolio Management Services Image'
       }
     ]    
