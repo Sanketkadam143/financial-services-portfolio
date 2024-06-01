@@ -1,17 +1,17 @@
 <template>
-   <div class="max-w-7xl mx-auto my-20">
+   <div class="max-w-7xl mx-auto md:my-20 my-10">
 
     <div>
         <h2 class="text-4xl font-bold text-center mb-8 text-gray-600">Our Services</h2>
     </div>
 
-    <div class="flex justify-evenly">
-        <div class="w-1/4" v-for="(section , index) in ServiceSectionContent.services"
+    <div class="md:flex justify-evenly">
+        <div class="md:w-1/4 mt-5 md:mt-0" v-for="(section , index) in ServiceSectionContent.services"
         :key="index"
         >
             <div>
                 <img :src="section.ServiceImage"
-                class="w-48 h-48 rounded-lg mx-auto"
+                class="md:w-48 h-48 rounded-lg mx-auto"
                 :alt="section.ServiceImageAlt"
                 />
             </div>

@@ -1,6 +1,6 @@
 <template>
 
-<footer class="relative bg-gray-900 text-white pt-8 pb-6 opacity-90 ">
+<footer class="relative bg-blue-900 text-white pt-8 pb-6  ">
   <div class="container mx-auto px-4">
     <div class="flex flex-wrap text-left lg:text-left">
       <div class="w-full lg:w-6/12 px-4">
@@ -9,11 +9,11 @@
           Find us on any of these platforms, we respond 1-2 business days.
         </h5>
        <!-- component -->
-<div class=" flex items-center justify-center mx-auto">
+<div class=" flex  mx-auto">
   <div class="container  mx-auto">
     <div>
 
-      <div class="flex flex-wrap justify-center gap-2">
+      <div class="flex flex-wrap  gap-2">
        
 
         <button class="bg-red-500 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
@@ -48,7 +48,7 @@
   </div>
 </div>
       </div>
-      <div class="w-full lg:w-6/12 px-4">
+      <div class="w-full lg:w-6/12 px-4 my-10 md:my-0">
         <div class="flex flex-wrap items-top mb-6">
           <div class="w-full lg:w-4/12 px-4 ml-auto">
             <span class="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Useful Links</span>
