@@ -47,7 +47,7 @@ export const HeroSectionContent = {
   
   export const AboutSectionContent = {
     AboutUsHeading: "About Us",
-    AboutUsSubHeading: "JM Financial is a comprehensive and diversified financial services group. The Group’s main businesses are",
+    AboutUsSubHeading: "Dream High Financial Services is a comprehensive and diversified financial services group. The Group’s main businesses are",
     AboutUsDescription: [
       {
         title: "Integrated Investment Banking",
@@ -178,11 +178,11 @@ export const WhyUSSectionContent = {
     },
     {
       imageSrc: Icon1,
-      description: 'OUR MANAGEMENT: JM Financial Limited, the flagship listed company of the Group, is led by the Group Chairman, Mr. Nimesh Kampani. The members of the Board meet periodically to discuss and review the performance of the Company.'
+      description: 'OUR MANAGEMENT: Dream High Financial Services Limited, the flagship listed company of the Group, is led by the Group Chairman, Mr. Nimesh Kampani. The members of the Board meet periodically to discuss and review the performance of the Company.'
     },
     {
       imageSrc: Icon1,
-      description: 'OUR JOURNEY: During the journey of over four decades, the group has garnered many a firsts. Over the years, JM Financial has consolidated its position and emerged as a strong and respected diversified financial services player.'
+      description: 'OUR JOURNEY: During the journey of over four decades, the group has garnered many a firsts. Over the years, Dream High Financial Services has consolidated its position and emerged as a strong and respected diversified financial services player.'
     }
   ]
 };
