@@ -6,21 +6,26 @@ import AboutUs from './components/AboutUs.vue';
 import Footer from './components/Footer.vue';
 import ContactUs from './components/ContactUs.vue';
 import Testimonial from './components/Testimonial.vue';
+import Values from './components/Values.vue';
 import Gallery from './components/Gallery.vue';
 import Videos from './components/Videos.vue';
+import Pillars from './components/Pillars.vue';
 
 </script>
 
 <template>
-
+  <div>
   <Hero />
   <Services />
   <AboutUs />
   <WhyUs />
+  <Values />
+  <Pillars />
   <Gallery />
   <Videos />
   <Testimonial />
   <ContactUs  />
   <Footer />
+</div>
 </template>
 
