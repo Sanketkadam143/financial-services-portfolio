@@ -1,5 +1,5 @@
 import Icon1 from '../assets/icon1.png';
-
+import focus from '../assets/focus.png';
 export const NavbarContent = {
   logo : Icon1,
   leftNavLinks: [
@@ -237,3 +237,52 @@ export const  TestimonialSectionContent = {
     ]
   ]
 }
+
+
+export const ourValues =  [
+  { image: focus, title: 'Compassion' },
+  { image: focus, title: 'Excellence' },
+  { image: focus, title: 'Innovation' },
+  { image: focus, title: 'Global Perspective' },
+  { image: focus, title: 'Sustainability' },
+  { image: focus, title: 'Energy' }
+]
+
+
+export const PILLARS = [
+  {
+      title: "New Event 1",
+      description: "Description of the first event.",
+      date: "Date 1"
+  },
+  {
+      title: "New Event 2",
+      description: "Description of the second event.",
+      date: "Date 2"
+  },
+  {
+      title: "New Event 3",
+      description: "Description of the third event.",
+      date: "Date 3"
+  },
+  {
+      title: "New Event 4",
+      description: "Description of the fourth event.",
+      date: "Date 4"
+  },
+  {
+      title: "New Event 5",
+      description: "Description of the fifth event.",
+      date: "Date 5"
+  },
+  {
+      title: "New Event 6",
+      description: "Description of the sixth event.",
+      date: "Date 6"
+  },
+  {
+      title: "New Event 7",
+      description: "Description of the fifth event.",
+      date: "Date 7"
+  }
+];
