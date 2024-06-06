@@ -14,7 +14,7 @@
       </div>
       <div class="w-full md:w-3/5 h-full flex items-center bg-gray-100 rounded-lg">
         
-        <iframe class="w-full md:h-44 md:rounded-lg md:pr-8" src="https://www.youtube.com/embed/7e90gBu4pas" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="w-full md:h-44 md:rounded-lg md:pr-8" src="https://lions317f.org/api/static/assets/1717049008320-jmfl-portfolio-video-1-.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
         <svg class="hidden md:block absolute inset-y-0 h-full w-24 fill-current text-gray-100 -ml-12" viewBox="0 0 100 100" preserveAspectRatio="none">
           <polygon points="50,0 100,0 50,100 0,100" />

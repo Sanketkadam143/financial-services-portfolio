@@ -240,49 +240,49 @@ export const  TestimonialSectionContent = {
 
 
 export const ourValues =  [
-  { image: focus, title: 'Compassion' },
-  { image: focus, title: 'Excellence' },
+  { image: focus, title: 'Client Focus' },
+  { image: focus, title: 'Integrity' },
   { image: focus, title: 'Innovation' },
-  { image: focus, title: 'Global Perspective' },
-  { image: focus, title: 'Sustainability' },
-  { image: focus, title: 'Energy' }
+  { image: focus, title: 'Team Work' },
+  { image: focus, title: 'Implementation' },
+  { image: focus, title: 'Performance' }
 ]
 
 
 export const PILLARS = [
   {
-      title: "New Event 1",
-      description: "Description of the first event.",
+      title: "Trusted Partner",
+      description: "Proven Track Record of being a trusted partner.",
       date: "Date 1"
   },
   {
-      title: "New Event 2",
-      description: "Description of the second event.",
+      title: "Growth and Profitability",
+      description: "Consistent Track of Growth and Profitability.",
       date: "Date 2"
   },
   {
-      title: "New Event 3",
-      description: "Description of the third event.",
+      title: "High Credit Rating",
+      description: "Strong Credit Rating.",
       date: "Date 3"
   },
   {
-      title: "New Event 4",
-      description: "Description of the fourth event.",
+      title: "Operational Network",
+      description: "Extensive Operational Network & Wide Customer Coverage.",
       date: "Date 4"
   },
   {
-      title: "New Event 5",
-      description: "Description of the fifth event.",
+      title: "Diversified Business",
+      description: "Diversified Business Model.",
       date: "Date 5"
   },
   {
-      title: "New Event 6",
-      description: "Description of the sixth event.",
+      title: "Lending Book",
+      description: "Strong Lending Book.",
       date: "Date 6"
   },
   {
-      title: "New Event 7",
-      description: "Description of the fifth event.",
+      title: "Liquidity Position",
+      description: "Strong Liquidity Position.",
       date: "Date 7"
   }
 ];
