@@ -54,12 +54,12 @@ export const HeroSectionContent = {
         content: "Serving institutional, corporate, government, and ultra-high-net-worth clients, this segment includes investment banking, institutional equities and research, private equity funds, fixed income, private wealth management, PMS, syndication, and finance."
       },
       {
-        title: "Mortgage Lending",
-        content: "This includes both wholesale mortgage lending, primarily for real estate developers, and retail mortgage lending, focusing on affordable home loans and secured MSME loans."
+        title: "Equity Trading & Investments",
+        content: "Trade shares of all listed companies on our platform, whether it's intraday trading or delivery investments. Benefit from our expert guidance."
       },
       {
-        title: "Alternative and Distressed Credit",
-        content: "This segment comprises the asset reconstruction business and alternative credit funds."
+        title: "Mutual Funds",
+        content: "Invest via SIP or Lump Sum in various categories like: Equity, Tax Saver, Hybrid Funds, Debt Funds, Balanced Funds, Liquid Funds, Government Security Bonds, etc."
       },
       {
         title: "Asset Management, Wealth Management, and Securities (Platform AWS)",
@@ -136,16 +136,24 @@ export const HeroSectionContent = {
 export const GallerySectionContent = {
   images: [
     {
-      src: 'https://lions317f.org/api/static/assets/1717049080678-jmfl-image1.jpeg',
-      alt: 'Image 1'
+      src: 'https://i.postimg.cc/yxnzPb43/jmfl-image1.jpg',
+      alt: 'Image 1',
+      type: 'image'
     },
     {
-      src: 'https://lions317f.org/api/static/assets/1717049117157-jmfl-image2.jpeg',
-      alt: 'Image 2'
+      src: 'https://i.postimg.cc/CKCrkfVz/jmfl-image2.jpg',
+      alt: 'Image 2',
+      type: 'image'
     },
     {
-      src: 'https://lions317f.org/api/static/assets/1717049080678-jmfl-image1.jpeg',
-      alt: 'Image 3'
+      src: 'https://gaadibaazar.s3.ap-south-1.amazonaws.com/media/client_media/Franchisee-Branding-Creatives_659g0_1718555798.0.pdf',
+      alt: 'Image 3',
+      type: 'pdf'
+    },
+    {
+      src: 'https://gaadibaazar.s3.ap-south-1.amazonaws.com/media/client_media/BT_Pro_MTF_pjBMw_1718556065.0.pdf',
+      alt: 'Image 4',
+      type: 'pdf'
     }
   ]
 };
@@ -178,11 +186,11 @@ export const WhyUSSectionContent = {
     },
     {
       imageSrc: Icon1,
-      description: 'OUR MANAGEMENT: Dream High Financial Services Limited, the flagship listed company of the Group, is led by the Group Chairman, Mr. Nimesh Kampani. The members of the Board meet periodically to discuss and review the performance of the Company.'
+      description: 'Being a company guided by its owners, we prioritize trust, ethical standards, and integrity. Our team is devoted to providing customized services designed to assist our clients in reaching their financial and investment objectives.'
     },
     {
       imageSrc: Icon1,
-      description: 'OUR JOURNEY: During the journey of over four decades, the group has garnered many a firsts. Over the years, Dream High Financial Services has consolidated its position and emerged as a strong and respected diversified financial services player.'
+      description: 'Boasting over 15 years of collective experience in capital markets, our team seamlessly blends energetic youth with seasoned advisors. We consist of specialists committed to offering exceptional services.'
     }
   ]
 };
@@ -191,7 +199,7 @@ export const WhyUSSectionContent = {
 
 export const  TestimonialSectionContent = {
   title: 'What people are saying.',
-  subtitle: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+  subtitle: 'DISCOVER HOW OUR CUSTOMERS FUEL OUR DRIVE FOR EXCELLENCE!',
   testimonialGroups: [
     [
       {
