@@ -3,11 +3,30 @@
         <h2 class="text-4xl font-bold text-center mb-8">Gallery</h2>
 
   
-    <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-      <div v-for="(image, index) in GallerySectionContent.images" :key="index">
-        <img class="md:h-72 md:w-96 rounded-lg" :src="image.src" :alt="image.alt" />
-      </div>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+  <div v-for="(content, index) in GallerySectionContent.images" :key="index">
+    <!-- Check if the current index is 2 or 3 to embed PDF, otherwise show image -->
+    <div v-if="index === 2 || index === 3">
+      <embed
+        v-if="content.type === 'pdf'"
+        class="md:h-72 md:w-96 rounded-lg"
+        :src="content.src"
+        type="application/pdf"
+        width="100%"
+        height="100%"
+      />
     </div>
+    <div v-else>
+      <img
+        v-if="content.type === 'image'"
+        class="md:h-72 md:w-96 rounded-lg"
+        :src="content.src"
+        :alt="content.alt"
+      />
+    </div>
+  </div>
+</div>
+
 </div>
   </template>
   

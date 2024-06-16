@@ -22,7 +22,7 @@ import Pillars from './components/Pillars.vue';
   <Values />
   <Pillars />
   <Gallery />
-  <Videos />
+  <!-- <Videos /> -->
   <Testimonial />
   <ContactUs  />
   <Footer />
