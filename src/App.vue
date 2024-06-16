@@ -8,7 +8,7 @@ import ContactUs from './components/ContactUs.vue';
 import Testimonial from './components/Testimonial.vue';
 import Values from './components/Values.vue';
 import Gallery from './components/Gallery.vue';
-import Videos from './components/Videos.vue';
+// import Videos from './components/Videos.vue';
 import Pillars from './components/Pillars.vue';
 
 </script>
