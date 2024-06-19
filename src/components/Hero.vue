@@ -1,6 +1,6 @@
 <!-- src/components/HeroSection.vue -->
 <template>
-  <div class="relative bg-cover bg-center flex flex-col md:h-[40rem]" :style="{ backgroundImage: `url(https://images.unsplash.com/photo-1560221328-12fe60f83ab8?q=80&w=2948&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D` }">
+  <div id="home" class="relative bg-cover bg-center flex flex-col md:h-[40rem]" :style="{ backgroundImage: `url(https://images.unsplash.com/photo-1560221328-12fe60f83ab8?q=80&w=2948&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D` }">
     <!-- Background Overlay with Low Opacity -->
     <div class="absolute inset-0 bg-gray-900 bg-opacity-70 z-0"></div>
     
@@ -12,15 +12,15 @@
         <!-- <img :src="NavbarContent.logo" alt="NavbarContent.logo"/> -->
         <!-- Nav Links (Left) -->
         <div class="hidden md:flex space-x-4">
-          <a href="#" class="text-white hover:text-gray-300">Home</a>
-          <a href="#" class="text-white hover:text-gray-300">Our Services</a>
-          <a href="#" class="text-white hover:text-gray-300">About Us</a>
+          <a href="#home" class="text-white hover:text-gray-300">Home</a>
+          <a href="#service" class="text-white hover:text-gray-300">Our Services</a>
+          <a href="#about" class="text-white hover:text-gray-300">About Us</a>
         </div>
       </div>
       <!-- Nav Links (Right) -->
       <div class="hidden md:flex items-center space-x-4">
-        <a href="#" class="text-white hover:text-gray-300">Testimonial</a>
-        <a href="#" class="text-white hover:text-gray-300">Contact</a>
+        <a href="#testimonial" class="text-white hover:text-gray-300">Testimonial</a>
+        <a href="#contact" class="text-white hover:text-gray-300">Contact</a>
         <button class="bg-blue-700 text-white px-4 py-2 rounded-full hover:bg-blue-700">Get Started</button>
       </div>
     </nav>
@@ -29,8 +29,8 @@
     <div class="relative z-10 flex flex-1 items-center justify-center text-center py-10">
       <div class="text-white">
         <h1 class="text-5xl font-bold mb-4">Dream High Financial Services</h1>
-        <p class="text-xl md:mb-8 md:w-3/5 mx-auto">Your Professional Financial Advisor</p>
-        <button class="bg-blue-700 text-white px-6 py-3 my-4 md:my-0 rounded-full hover:bg-blue-500">Enquire Now</button>
+        <p class="text-xl md:mb-8 md:w-full mx-auto">India's best research best services and minimun brokerage</p>
+        <button class="bg-blue-700 text-white px-6 py-3 my-4 md:my-0 rounded-full hover:bg-blue-500">Open Your Demat Account</button>
       </div>
     </div>
   </div>

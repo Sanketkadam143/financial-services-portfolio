@@ -1,6 +1,6 @@
 <template>
 
-	<div class="md:my-2 md:py-2">
+	<div id="contact" class="md:my-2 md:py-2">
 				<div class="grid sm:grid-cols-2 items-center gap-16 p-8 mx-auto max-w-7xl bg-white ] rounded-md text-[#333] font-[sans-serif]">
 					<div>
 						<h1 class="text-3xl font-extrabold">Let's Talk</h1>
@@ -58,7 +58,8 @@
 									</div>
 									<a target="blank" href="https://veilmail.io/e/FkKh7o" class="text-gray-700 text-sm ml-3">
 										<!-- <small class="block">Mail</small> -->
-										<strong>Mon-Sun: 10:00AM - 07:00PM</strong>
+										<strong>Mon-Fri 9AM-5PM
+										</strong>
 									</a>
 								</li>
 							</ul>
