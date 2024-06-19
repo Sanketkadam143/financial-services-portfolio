@@ -1,5 +1,5 @@
 <template>
-    <div class="min-w-screen flex items-center justify-center py-5">
+    <div id="testimonial" class="min-w-screen flex items-center justify-center py-5">
       <div class="w-full bg-white  px-5 py-16 md:py-24 text-gray-800">
         <div class="w-full max-w-6xl mx-auto">
           <div class="text-center max-w-xl mx-auto">

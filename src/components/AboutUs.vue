@@ -1,5 +1,5 @@
 <template>
-  <div class="my-10 max-w-7xl mx-auto">
+  <div id="about" class="my-10 max-w-7xl mx-auto">
     <div class="flex justify-center">
       <img :src="AboutSectionContent.AboutUsImage" class="w-full object-cover h-80" />
     </div>

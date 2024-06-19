@@ -1,5 +1,5 @@
 <template>
-   <div class="max-w-7xl mx-auto md:my-20 my-10">
+   <div id="service" class="max-w-7xl mx-auto md:my-20 my-10">
 
     <div>
         <h2 class="text-4xl font-bold text-center mb-8 text-gray-600">Our Services</h2>

@@ -10,11 +10,13 @@ import Values from './components/Values.vue';
 import Gallery from './components/Gallery.vue';
 import Videos from './components/Videos.vue';
 import Pillars from './components/Pillars.vue';
+import WhatsappIcon from './components/WhatsappIcon.vue';
 
 </script>
 
 <template>
   <div>
+  <WhatsappIcon />
   <Hero />
   <Services />
   <AboutUs />
