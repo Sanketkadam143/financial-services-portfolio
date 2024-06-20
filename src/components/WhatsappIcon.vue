@@ -13,8 +13,8 @@
 
     methods: {
       openWhatsApp() {
-        const phoneNumber = 'YOUR_PHONE_NUMBER'; // replace with your WhatsApp phone number
-        const message = 'Hello!'; // replace with your default message
+        const phoneNumber = '917576919191'; // replace with your WhatsApp phone number
+        const message = 'Hello! I want to open my demat account'; // replace with your default message
         window.open(`https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`, '_blank');
       }
     }

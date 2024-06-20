@@ -2,7 +2,7 @@
     <div class="  text-white">
 
    
-    <div class="max-w-7xl mx-auto my-20 py-10 px-5 bg-gradient-to-r from-blue-500 to-blue-900 md:rounded-3xl">
+    <div id="whyus" class="max-w-7xl mx-auto my-20 py-10 px-5 bg-gradient-to-r from-blue-500 to-blue-900 md:rounded-3xl">
  
      <div>
          <h2 class="text-4xl font-bold text-center mb-8">Why Us</h2>

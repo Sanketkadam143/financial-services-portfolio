@@ -6,7 +6,7 @@
       <div class="w-full lg:w-6/12 px-4">
         <h4 class="text-3xl fonat-semibold text-blueGray-700">Let's keep in touch!</h4>
         <h5 class="text-lg mt-0 mb-2 text-blueGray-600">
-          Find us on any of these platforms, we respond 1-2 business days.
+          Copyright 2023 © All rights reserved. | Designed & Developed by  HSPM Solutions LLP.
         </h5>
        <!-- component -->
 <div class=" flex  mx-auto">
@@ -20,7 +20,7 @@
   </div>
 </div>
       </div>
-      <div class="w-full lg:w-6/12 px-4 my-10 md:my-0">
+      <!-- <div class="w-full lg:w-6/12 px-4 my-10 md:my-0">
         <div class="flex flex-wrap items-top mb-6">
           <div class="w-full lg:w-4/12 px-4 ml-auto">
             <span class="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Useful Links</span>
@@ -57,7 +57,7 @@
             </ul>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
     <hr class="my-6 border-blueGray-300">
     <div class="flex flex-wrap items-center md:justify-between justify-center">

@@ -135,11 +135,11 @@ export const HeroSectionContent = {
 // constant.js
 export const GallerySectionContent = {
   images: [
-    {
-      src: 'https://i.postimg.cc/yxnzPb43/jmfl-image1.jpg',
-      alt: 'Image 1',
-      type: 'image'
-    },
+    // {
+    //   src: 'https://i.postimg.cc/yxnzPb43/jmfl-image1.jpg',
+    //   alt: 'Image 1',
+    //   type: 'image'
+    // },
     {
       src: 'https://i.postimg.cc/CKCrkfVz/jmfl-image2.jpg',
       alt: 'Image 2',

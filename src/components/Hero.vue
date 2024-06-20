@@ -1,3 +1,4 @@
+
 <!-- src/components/HeroSection.vue -->
 <template>
   <div id="home" class="relative bg-cover bg-center flex flex-col md:h-[40rem]" :style="{ backgroundImage: `url(https://images.unsplash.com/photo-1560221328-12fe60f83ab8?q=80&w=2948&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D` }">
@@ -19,9 +20,10 @@
       </div>
       <!-- Nav Links (Right) -->
       <div class="hidden md:flex items-center space-x-4">
+        <a href="#whyus" class="text-white hover:text-gray-300">Why Us</a>
         <a href="#testimonial" class="text-white hover:text-gray-300">Testimonial</a>
         <a href="#contact" class="text-white hover:text-gray-300">Contact</a>
-        <button class="bg-blue-700 text-white px-4 py-2 rounded-full hover:bg-blue-700">Get Started</button>
+        <!-- <button class="bg-blue-700 text-white px-4 py-2 rounded-full hover:bg-blue-700">Get Started</button> -->
       </div>
     </nav>
 
@@ -29,8 +31,8 @@
     <div class="relative z-10 flex flex-1 items-center justify-center text-center py-10">
       <div class="text-white">
         <h1 class="text-5xl font-bold mb-4">Dream High Financial Services</h1>
-        <p class="text-xl md:mb-8 md:w-full mx-auto">India's best research best services and minimun brokerage</p>
-        <button class="bg-blue-700 text-white px-6 py-3 my-4 md:my-0 rounded-full hover:bg-blue-500">Open Your Demat Account</button>
+        <p class="text-xl md:mb-8 md:w-full mx-auto">India's best research, best services and minimun brokerage</p>
+        <button class="bg-blue-700 text-white px-6 py-3 my-4 md:my-0 rounded-full hover:bg-blue-500"  @click="openWhatsApp" >Open Your Demat Account</button>
       </div>
     </div>
   </div>
@@ -39,6 +41,21 @@
 <!-- <script>
 import icon1 from '../assets/icon1.png';
 </script> -->
+
+<script>
+export default {
+
+      
+
+  methods: {
+    openWhatsApp() {
+      const phoneNumber = '917576919191'; // replace with your WhatsApp phone number
+      const message = 'Hello! I want to open my demat account'; // replace with your default message
+      window.open(`https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`, '_blank');
+    }
+  }
+};
+</script>
 
 <style scoped>
 .h-screen-80 {

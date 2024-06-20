@@ -1,3 +1,21 @@
+<!-- src/App.vue -->
+<template>
+  <div>
+    <WhatsappIcon />
+    <Hero />
+    <Services />
+    <AboutUs />
+    <WhyUs />
+    <Values />
+    <Pillars />
+    <Gallery />
+    <!-- <Videos /> -->
+    <Testimonial />
+    <ContactUs />
+    <Footer />
+  </div>
+</template>
+
 <script setup lang="ts">
 import Hero from './components/Hero.vue';
 import Services from './components/Services.vue';
@@ -11,23 +29,4 @@ import Gallery from './components/Gallery.vue';
 // import Videos from './components/Videos.vue';
 import Pillars from './components/Pillars.vue';
 import WhatsappIcon from './components/WhatsappIcon.vue';
-
 </script>
-
-<template>
-  <div>
-  <WhatsappIcon />
-  <Hero />
-  <Services />
-  <AboutUs />
-  <WhyUs />
-  <Values />
-  <Pillars />
-  <Gallery />
-  <!-- <Videos /> -->
-  <Testimonial />
-  <ContactUs  />
-  <Footer />
-</div>
-</template>
-

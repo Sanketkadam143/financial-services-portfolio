@@ -5,8 +5,8 @@
   
         <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
   <div v-for="(content, index) in GallerySectionContent.images" :key="index">
-    <!-- Check if the current index is 2 or 3 to embed PDF, otherwise show image -->
-    <div v-if="index === 2 || index === 3">
+    
+    <div v-if="content.type === 'pdf'">
       <embed
         v-if="content.type === 'pdf'"
         class="md:h-72 md:w-96 rounded-lg"
