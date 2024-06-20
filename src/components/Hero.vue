@@ -1,7 +1,7 @@
 
 <!-- src/components/HeroSection.vue -->
 <template>
-  <div id="home" class="relative bg-cover bg-center flex flex-col md:h-[40rem]" :style="{ backgroundImage: `url(https://images.unsplash.com/photo-1560221328-12fe60f83ab8?q=80&w=2948&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D` }">
+  <div id="home" class="relative bg-cover bg-center flex flex-col md:h-[40rem]" :style="{ backgroundImage: `url(https://gaadibaazar.s3.ap-south-1.amazonaws.com/media/client_media/blue-screen_ZLFry_1718870859.0.jpg` }">
     <!-- Background Overlay with Low Opacity -->
     <div class="absolute inset-0 bg-gray-900 bg-opacity-70 z-0"></div>
     
@@ -30,6 +30,7 @@
     <!-- Hero Content -->
     <div class="relative z-10 flex flex-1 items-center justify-center text-center py-10">
       <div class="text-white">
+        <!-- <h1 class="text-9xl font-bold mb-4">JM Financial</h1> -->
         <h1 class="text-5xl font-bold mb-4">Dream High Financial Services</h1>
         <p class="text-xl md:mb-8 md:w-full mx-auto">India's best research, best services and minimun brokerage</p>
         <button class="bg-blue-700 text-white px-6 py-3 my-4 md:my-0 rounded-full hover:bg-blue-500"  @click="openWhatsApp" >Open Your Demat Account</button>
