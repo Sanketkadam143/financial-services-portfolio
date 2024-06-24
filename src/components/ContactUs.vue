@@ -106,7 +106,7 @@
         </div>
       </div>
 
-      <form class="ml-auto space-y-4">
+      <form class="ml-auto space-y-4" action="https://airform.io/iyerrama2023@gmail.com" method="post">
         <div class="mt-2">
           <h2 class="text-lg font-extrabold">Call us</h2>
           <ul class="mt-3">
@@ -137,16 +137,17 @@
         <input
           type="text"
           placeholder="Name"
+          name="name"
           class="w-full rounded-md py-2.5 px-4 border text-sm outline-[#007bff]"
         />
         <input
-          type="text"
+          type="number"
+          name="number"
           placeholder="Mobile No"
           class="w-full rounded-md py-2.5 px-4 border text-sm outline-[#007bff]"
         />
 
         <button
-          type="button"
           class="text-white bg-blue-700 hover:bg-blue-600 font-semibold rounded-md text-sm px-4 py-2.5 w-full"
         >
           Send
