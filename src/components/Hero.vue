@@ -49,7 +49,7 @@
     </div>
 
     <!-- Hero Content -->
-    <div class="relative z-10 flex flex-1 items-center justify-center text-center py-10">
+    <div class="relative z-10 flex flex-1 items-center justify-center text-center py-10 mt-24">
       <div class="text-white">
         <!-- <h1 class="text-9xl font-bold mb-4">JM Financial</h1> -->
         <h1 class="text-5xl font-bold mb-4">Dream High Financial Services</h1>
