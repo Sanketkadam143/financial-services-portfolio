@@ -216,44 +216,39 @@ export const  TestimonialSectionContent = {
     [
       {
         id: 1,
-        name: 'Kenzie Edgar',
-        imgSrc: 'https://i.pravatar.cc/100?img=1',
-        message: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sunt ratione dolor exercitationem minima quas itaque saepe quasi architecto vel! Accusantium, vero sint recusandae cum tempora nemo commodi soluta deleniti.'
-      },
-      {
-        id: 2,
-        name: 'Stevie Tifft',
+        name: 'Chakradhar',
         imgSrc: 'https://i.pravatar.cc/100?img=2',
-        message: 'Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Dolore quod necessitatibus, labore sapiente, est, dignissimos ullam error ipsam sint quam tempora vel.'
+        message: 'Best financial services in Pune. I have been using their services for the past 5 years and I am very satisfied with their services.'
       }
     ],
+    [
+      {
+        id: 2,
+        name: 'Rohit Ghute',
+        imgSrc: 'https://i.pravatar.cc/100?img=2',
+        message: 'There team is very professional and supportive. They have helped me in making the right investment decisions.'
+      },
+    ],
+    //   {
+    //     id: 4,
+    //     name: 'Charlie Howse',
+    //     imgSrc: 'https://i.pravatar.cc/100?img=4',
+    //     message: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto inventore voluptatum nostrum atque, corrupti, vitae esse id accusamus dignissimos neque reprehenderit natus, hic sequi itaque dicta nisi voluptatem! Culpa, iusto.'
+    //   }
+    // ],
     [
       {
         id: 3,
-        name: 'Tommie Ewart',
-        imgSrc: 'https://i.pravatar.cc/100?img=3',
-        message: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, obcaecati ullam excepturi dicta error deleniti sequi.'
-      },
-      {
-        id: 4,
-        name: 'Charlie Howse',
-        imgSrc: 'https://i.pravatar.cc/100?img=4',
-        message: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto inventore voluptatum nostrum atque, corrupti, vitae esse id accusamus dignissimos neque reprehenderit natus, hic sequi itaque dicta nisi voluptatem! Culpa, iusto.'
+        name: 'Krushna',
+        imgSrc: 'https://i.pravatar.cc/100?img=2',
+        message: 'There are many financial services in Pune but Dream High Financial Services is the best. They have a very good team of professionals.'
       }
-    ],
-    [
-      {
-        id: 5,
-        name: 'Nevada Herbertson',
-        imgSrc: 'https://i.pravatar.cc/100?img=5',
-        message: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, voluptatem porro obcaecati dicta, quibusdam sunt ipsum, laboriosam nostrum facere exercitationem pariatur deserunt tempora molestiae assumenda nesciunt alias eius? Illo, autem!'
-      },
-      {
-        id: 6,
-        name: 'Kris Stanton',
-        imgSrc: 'https://i.pravatar.cc/100?img=6',
-        message: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem iusto, explicabo, cupiditate quas totam!'
-      }
+    //   {
+    //     id: 6,
+    //     name: 'Kris Stanton',
+    //     imgSrc: 'https://i.pravatar.cc/100?img=6',
+    //     message: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem iusto, explicabo, cupiditate quas totam!'
+    //   }
     ]
   ]
 }
