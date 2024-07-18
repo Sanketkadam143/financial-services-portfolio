@@ -47,24 +47,36 @@ export const HeroSectionContent = {
   
   export const AboutSectionContent = {
     AboutUsHeading: "About Us",
-    AboutUsSubHeading: "Dream High Financial Services is a comprehensive and diversified financial services group. The Group’s main businesses are",
+    AboutUsSubHeading: "Dream High Financial Services is a  Business Affiliate of JM FINANCIAL  at Aundh, Pune. The Group’s main businesses are",
     AboutUsDescription: [
-      {
-        title: "Integrated Investment Banking",
-        content: "Serving institutional, corporate, government, and ultra-high-net-worth clients, this segment includes investment banking, institutional equities and research, private equity funds, fixed income, private wealth management, PMS, syndication, and finance."
-      },
       {
         title: "Equity Trading & Investments",
         content: "Trade shares of all listed companies on our platform, whether it's intraday trading or delivery investments. Benefit from our expert guidance."
       },
       {
+      title: "Minimum Brokerage",
+      content: "We offer the lowest brokerage in the market, ensuring that you get the most out of your investments."
+      },
+      {
+        title: "Best Trading Platform",
+        content: "Our platform is user-friendly and offers a wide range of features, making trading easy and convenient."
+      },
+      {
+        title: "SEBI MTF Facility Available ",
+        content: "MTF is a facility that allows you to trade in shares without having to pay the full amount upfront. This is a great way to leverage your investments."
+      },
+      {
+        title: "Portfolio Management for Individuals ",
+        content: "We offer personalized portfolio management services to help you achieve your financial goals."
+      },
+      {
         title: "Mutual Funds",
         content: "Invest via SIP or Lump Sum in various categories like: Equity, Tax Saver, Hybrid Funds, Debt Funds, Balanced Funds, Liquid Funds, Government Security Bonds, etc."
       },
-      {
-        title: "Asset Management, Wealth Management, and Securities (Platform AWS)",
-        content: "Offering an integrated investment platform for individual clients, this segment includes elite and retail wealth management, broking, and mutual fund businesses."
-      }
+      // {
+      //   title: "Asset Management, Wealth Management, and Securities (Platform AWS)",
+      //   content: "Offering an integrated investment platform for individual clients, this segment includes elite and retail wealth management, broking, and mutual fund businesses."
+      // }
     ],
     AboutUsImage: "https://cdn.shopify.com/s/files/1/0070/7032/files/arriving-at-a-solution.jpg?v=1687365354"
   };
@@ -74,6 +86,20 @@ export const HeroSectionContent = {
   export const ServiceSectionContent = {
     services: [
       {
+        ServiceHeading: 'Portfolio Management Services',
+        ServiceSubHeading: 'Tailored portfolio management to meet your financial goals.',
+        ServiceButton: 'Get Started',
+        ServiceImage: 'https://happay.com/blog/wp-content/uploads/sites/12/2023/07/financial-assets-scaled.webp',
+        ServiceImageAlt: 'Portfolio Management Services Image'
+      },
+      {
+        ServiceHeading: 'Research and Advisory',
+        ServiceSubHeading: 'In-depth market research and strategic advisory services.',
+        ServiceButton: 'Consult Us',
+        ServiceImage: 'https://kreditbee.in/blog/content/images/2023/12/shutterstock_2195605515-min.jpg',
+        ServiceImageAlt: 'Research and Advisory Image'
+      },
+      {
         ServiceHeading: 'Wealth Management',
         ServiceSubHeading: 'Personalized strategies for managing your wealth',
         ServiceButton: 'Learn More',
@@ -81,10 +107,10 @@ export const HeroSectionContent = {
         ServiceImageAlt: 'Wealth Management Image'
       },
       {
-        ServiceHeading: 'Investment Banking',
-        ServiceSubHeading: 'Capital raising services for corporations and institutions.',
+        ServiceHeading: 'BlinkTradePro',
+        ServiceSubHeading: 'Online Stock Trading and Investment App',
         ServiceButton: 'Discover More',
-        ServiceImage: 'https://www.axisbank.com/images/default-source/progress-with-us_new/value-investing-vs-growth-investing.jpg',
+        ServiceImage: 'https://gaadibaazar.s3.ap-south-1.amazonaws.com/media/client_media/blinktrade_mwCWr_1721285912.0.jpeg',
         ServiceImageAlt: 'Investment Banking Image'
       },
       // {
@@ -115,20 +141,6 @@ export const HeroSectionContent = {
       //   ServiceImage: 'https://www.axisbank.com/images/default-source/progress-with-us_new/value-investing-vs-growth-investing.jpg',
       //   ServiceImageAlt: 'Alternative Credit Image'
       // },
-      {
-        ServiceHeading: 'Research and Advisory',
-        ServiceSubHeading: 'In-depth market research and strategic advisory services.',
-        ServiceButton: 'Consult Us',
-        ServiceImage: 'https://kreditbee.in/blog/content/images/2023/12/shutterstock_2195605515-min.jpg',
-        ServiceImageAlt: 'Research and Advisory Image'
-      },
-      {
-        ServiceHeading: 'Portfolio Management Services',
-        ServiceSubHeading: 'Tailored portfolio management to meet your financial goals.',
-        ServiceButton: 'Get Started',
-        ServiceImage: 'https://happay.com/blog/wp-content/uploads/sites/12/2023/07/financial-assets-scaled.webp',
-        ServiceImageAlt: 'Portfolio Management Services Image'
-      }
     ]    
   };
   
@@ -186,11 +198,11 @@ export const WhyUSSectionContent = {
     },
     {
       imageSrc: Icon1,
-      description: 'Being a company guided by its owners, we prioritize trust, ethical standards, and integrity. Our team is devoted to providing customized services designed to assist our clients in reaching their financial and investment objectives.'
+      description: 'Our team is devoted to providing customized services designed to assist our clients in reaching their financial and investment objectives.'
     },
     {
       imageSrc: Icon1,
-      description: 'Boasting over 15 years of collective experience in capital markets, our team seamlessly blends energetic youth with seasoned advisors. We consist of specialists committed to offering exceptional services.'
+      description: 'Boasting over 50 years of collective experience in capital markets, our team seamlessly blends energetic youth with seasoned advisors.'
     }
   ]
 };

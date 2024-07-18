@@ -106,7 +106,11 @@
         </div>
       </div>
 
-      <form class="ml-auto space-y-4" action="https://airform.io/iyerrama2023@gmail.com" method="post">
+      <form
+        class="ml-auto space-y-4"
+        action="https://airform.io/iyerrama2023@gmail.com"
+        method="post"
+      >
         <div class="mt-2">
           <h2 class="text-lg font-extrabold">Call us</h2>
           <ul class="mt-3">
@@ -126,14 +130,13 @@
                   />
                 </svg>
               </div>
-              <!-- <small class="block">Mail</small> -->
               <strong class="text-gray-700 text-sm ml-3"
                 >917576919191 - 919890008077</strong
               >
             </li>
           </ul>
         </div>
-        <h2>To open Demat account ,contact us</h2>
+        <h2>To open Demat account, contact us</h2>
         <input
           type="text"
           placeholder="Name"
@@ -147,8 +150,18 @@
           class="w-full rounded-md py-2.5 px-4 border text-sm outline-[#007bff]"
         />
 
+        <div class="flex items-center">
+          <input type="checkbox" id="terms" class="mr-2" />
+          <label for="terms" class="text-sm text-gray-700"
+            >By submitting your details, you are authorizing us to call you or send promotional communication through SMS/Whatsapp even though you may be registered under DND.
+            <!-- <a href="#" class="text-blue-500">Terms and Conditions</a> -->
+          </label>
+        </div>
+
         <button
+          id="submitBtn"
           class="text-white bg-blue-700 hover:bg-blue-600 font-semibold rounded-md text-sm px-4 py-2.5 w-full"
+          disabled
         >
           Send
         </button>
@@ -157,4 +170,13 @@
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const termsCheckbox = document.getElementById('terms');
+    const submitButton = document.getElementById('submitBtn');
+
+    termsCheckbox.addEventListener('change', function () {
+      submitButton.disabled = !this.checked;
+    });
+  });
+</script>
