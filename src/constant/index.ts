@@ -217,7 +217,7 @@ export const  TestimonialSectionContent = {
       {
         id: 1,
         name: 'Chakradhar',
-        imgSrc: 'https://i.pravatar.cc/100?img=2',
+        imgSrc: 'https://i.pravatar.cc/100?img=4',
         message: 'Best financial services in Pune. I have been using their services for the past 5 years and I am very satisfied with their services.'
       }
     ],
@@ -240,7 +240,7 @@ export const  TestimonialSectionContent = {
       {
         id: 3,
         name: 'Krushna',
-        imgSrc: 'https://i.pravatar.cc/100?img=2',
+        imgSrc: 'https://i.pravatar.cc/100?img=6',
         message: 'There are many financial services in Pune but Dream High Financial Services is the best. They have a very good team of professionals.'
       }
     //   {
